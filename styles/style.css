@@ -1,0 +1,93 @@
+@font-face {
+  font-family:'android';
+  src:url('../fonts/idroid.otf') format('opentype');
+}
+:root{
+  --verde-claro:#84e0ad;
+  --verde-seg:#34bc70;
+  --verde-escuro:#1a5e39;
+}
+*{
+  margin:0;
+  padding:0;
+}
+body{
+  font-family:Arial,Helvetica,Sans-serif;
+  background-color:var(--verde-claro);
+}
+header{
+  background-image: linear-gradient(to bottom,var(--verde-seg),var(--verde-escuro));
+  color:white;
+}
+header > h1{
+  text-align:center;
+  margin-bottom:10px;
+}
+header > p{
+  text-align:center;
+  padding:15px;
+}
+nav{
+  background-color:var(--verde-escuro);
+}
+nav > a{
+  color:white;
+  text-decoration: none;
+  margin-left:10px;
+}
+main{
+  min-width:320px;
+  max-width:800px;
+  background-color:white;
+  padding:10px;
+  margin:auto;
+}
+main > article{
+  overflow:hidden;
+}
+main > article > h1{
+  font-family:'android',Arial, Helvetica, sans-serif;
+  color:var(--verde-escuro);
+}
+main > article > h2{
+  color:var(--verde-escuro);
+  background-image: linear-gradient(to right,#84E0AD96 60%,#84E0AD3D);
+}
+main > article > p{
+  text-indent:10px;
+  text-align: justify;
+}
+main > article > img{
+  text-align:center;
+  width:100%;
+}
+main > aside{
+  padding:10px;
+  background-color:var(--verde-claro);
+  border-radius:10px;
+}
+main > aside > h2{
+  color:white;
+}
+main > aside > p{
+  text-indent:10px;
+  text-align: justify;
+}
+main > aside > .ul-left,.ul-right{
+  display:inline-block;
+  margin-right:10px;
+  margin-bottom:10px;
+}
+.pp{
+  text-align: center;
+  text-align: justify;
+}
+footer{
+  background-color:var(--verde-escuro);
+}
+footer > p{
+  color:white;
+  text-align: center;
+  margin:0;
+  padding:8px;
+}
